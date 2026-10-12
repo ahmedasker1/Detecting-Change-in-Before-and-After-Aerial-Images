@@ -1,0 +1,74 @@
+{
+  "dataset_root": "D:\\DEPI Project\\.kagglehub_cache\\datasets\\mdrifaturrahman33\\levir-cd-change-detection\\versions\\1",
+  "total_samples": 985,
+  "verification": {
+    "sizes": {
+      "(1024, 1024)": 31
+    },
+    "image_modes": {
+      "RGB": 31
+    },
+    "mask_unique_values": [
+      0,
+      1
+    ],
+    "problems": []
+  },
+  "splits": {
+    "train": {
+      "n_samples": 689,
+      "n_masks": 300,
+      "changed_frac_mean": 0.041673498153686525,
+      "unchanged_frac_mean": 0.9583265018463135,
+      "changed_frac_min": 0.0,
+      "changed_frac_max": 0.26885223388671875,
+      "empty_masks": 19
+    },
+    "val": {
+      "n_samples": 147,
+      "n_masks": 147,
+      "changed_frac_mean": 0.04586264551902304,
+      "unchanged_frac_mean": 0.9541373544809769,
+      "changed_frac_min": 0.0,
+      "changed_frac_max": 0.2642059326171875,
+      "empty_masks": 11
+    },
+    "test": {
+      "n_samples": 149,
+      "n_masks": 149,
+      "changed_frac_mean": 0.04337418959444801,
+      "unchanged_frac_mean": 0.956625810405552,
+      "changed_frac_min": 0.0,
+      "changed_frac_max": 0.2522850036621094,
+      "empty_masks": 12
+    }
+  },
+  "notes": [
+    "Official splits absent or incomplete -- all samples will be pooled and (if needed) re-split 70/15/15 with a fixed seed.",
+    "Official splits incomplete (found {'train': 637, 'val': 0, 'test': 348}) -- pooling ALL samples and re-splitting 70%/15%/15% with seed=42.",
+    "Re-split sizes: train=689, val=147, test=149 (seed=42).",
+    "Leakage check passed: no sample id appears in two splits."
+  ],
+  "samples_head": [
+    "train_10|train",
+    "train_100|train",
+    "train_102|train",
+    "train_103|train",
+    "train_106|train",
+    "train_107|train",
+    "train_108|train",
+    "train_11|train",
+    "train_110|train",
+    "train_111|train",
+    "train_112|train",
+    "train_113|train",
+    "train_114|train",
+    "train_115|train",
+    "train_117|train",
+    "train_119|train",
+    "train_12|train",
+    "train_120|train",
+    "train_122|train",
+    "train_124|train"
+  ]
+}
