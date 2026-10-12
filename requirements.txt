@@ -1,0 +1,14 @@
+# LEVIR-CD change detection (Siamese U-Net)
+#
+# NOTE: install PyTorch with the CUDA build for your system FIRST, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+# (on a CPU-only machine `pip install torch` is enough)
+torch>=2.1
+numpy>=1.24
+pillow>=9.0
+matplotlib>=3.7
+tqdm>=4.60
+kagglehub>=0.2
+# Jupyter workflow (notebooks/ folder)
+jupyter>=1.0
+ipykernel>=6.0
